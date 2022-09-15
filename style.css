@@ -6,19 +6,14 @@
 
 .banner {
   height: 100vh;
-  background-image: linear-gradient(
-    to right,
-    black 0,
-    white 30%,
-    black 50%,
-    white 70%,
-    black 100%
-  );
-  background-size: 500% 100%;
+  background: linear-gradient(-45deg, #3d3d3d, white, #3d3d3d, white);
+  background-size: 700% 700%;
   background-position: 0 0;
   display: flex;
   align-items: center;
   padding: 10px 4vw;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner h1 {

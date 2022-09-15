@@ -5,11 +5,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to('.banner', {
   backgroundSize: '200% 100%',
-  backgroundPosition: '150% 0',
+  backgroundPosition: '50% 100%',
   scrollTrigger: {
     trigger: '.banner',
     pin: true,
-    scrub: true,
+    scrub: 3,
     markers: true,
   },
 });
